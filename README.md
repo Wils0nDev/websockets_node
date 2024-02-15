@@ -6,7 +6,7 @@
    ``` npx http-server -o ``` 
 
 4. Frontend: en la ruta de websockets_node/frontend2
-   ``` npx http-server -o `
+   ``` npx http-server -o ```
 
 
 

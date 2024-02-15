@@ -23,7 +23,7 @@ wss.on('connection', function connection(ws) {
       }
     });*/
 
-     //*Broadcast : Envio a todos los clientes menos al cliente que emite
+     //*Broadcast : Envio a todos los clientes menos al cliente que emite el mensaje
      wss.clients.forEach(function each(client) {
       if (client !== ws && client.readyState === WebSocket.OPEN) {
         client.send(payload, { binary: false });
