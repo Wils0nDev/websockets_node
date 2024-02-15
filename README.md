@@ -17,8 +17,7 @@ WebSocket es un protocolo de red basado en TCP que establece cómo deben interca
 # Librerías
  1. BackEnd
     - ws: a Node.js WebSocket library 
-        ``` npm i ws 
-        ``` 
+        ``` npm i ws ``` 
  2. FrontEnd
     - Aqui usaremos la implementación nativa que ya nos ofrece los navegadores
         - https://developer.mozilla.org/es/docs/Web/API/WebSocket
